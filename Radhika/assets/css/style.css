@@ -129,6 +129,7 @@ nav.navbar.bootsnav {
 
 /*.nav li*/
 nav.navbar.bootsnav ul.nav > li > a {
+    color: #ffffff;
     font-size: 16px;
     font-weight: 700;
     text-transform:uppercase;
@@ -1634,4 +1635,35 @@ span.single-timeline-horizontal.spacial-horizontal-line {
     0%   {bottom:0px;}
     100%  {bottom:7px;}
 }
+
+/* Contact Form Message Styles */
+.form-message {
+    font-size: 14px;
+    font-weight: 500;
+    border: 1px solid;
+    transition: all 0.3s ease;
+}
+
+.form-message.alert-success {
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+    color: #155724;
+}
+
+.form-message.alert-danger {
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    color: #721c24;
+}
+
+.form-message strong {
+    font-weight: 600;
+}
+
+/* Contact form button loading state */
+.contact-btn:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
 /*========================Thank you=================
